@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock-Paper-Scissors</title>
 </head>
 <body>
-    
+        <div class="container">
+            <h1>Rock Paper Scissors</h1>
+            <div class="ties">
+                <h3>Ties: 0</h3>
+            </div>
+            <div class="winner">
+                <h3>You have won the round!</h3>
+                <button>Play Again</button>
+            </div>
+
+        <div class="player" id="player">
+            <div class="selection-img" id="palyerSelcetionImg">
+                <img class="img-item" id="playerRock" src="image/rock.png" alt="rock" >
+                <img class="img-item"  id="playerPaper" src="image/paper.png" alt="paper" >
+                <img class="img-item" id="playerScissors" src="image/scissors.png" alt="scissors" >
+            </div>
+            <div class="player-choice">
+                Player choose:
+            </div>
+            <div class="player-score">
+                Score: 0
+            </div>
+        </div>
+        <div class="computer" id="computer">
+            <div class="selection-img" id="comSelectionImg">
+                <img class="img-item" id="computerRock" src="image/rock.png" alt="rock" >
+                <img class="img-item" id="computerPaper" src="image/paper.png" alt="paper" >
+                <img class="img-item" id="computerScissors" src="image/scissors.png" alt="scissors" >
+            </div>
+            <div class="computer-choice">
+                Computer choose:
+            </div>
+            <div class="computer-score">
+                Score: 0
+            </div>
+
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

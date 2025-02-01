@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+h1{
+    padding: 20px;
+}
+
+.winner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+.winner h3 {
+    display: none;
+}
+.winner button{
+    display: none;
+    padding: 10px 20px;
+    background-color: #00a2ed;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.player, .computer {
+    padding: 20px;
+}
+
+.img-item{
+    padding: 10px;
+    height: 90px;
+    width: 90px;
+    transition: transform 0.3s ease;
+}
+
+.pop{
+    transform: scale(1.2);
+}
+.player-choice{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.player-score{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.computer-choice{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.computer-score{
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
