@@ -33,9 +33,9 @@ rock.addEventListener("click", () => {
         addPopEffect(document.querySelector("#computerScissors"))
     }
     const playerChoice = document.querySelector(".player-choice");
-    playerChoice.textContent = `Player choose: ${playerSelection}`;
+    playerChoice.textContent = `Player chose: ${playerSelection}`;
     const computerChoice = document.querySelector(".computer-choice");
-    computerChoice.textContent = `Computer choose: ${computerSelection}`;
+    computerChoice.textContent = `Computer chose: ${computerSelection}`;
 
     // playRound(playerSelection, computerSelection);
     playGame(playerSelection, computerSelection);
@@ -61,9 +61,9 @@ paper.addEventListener("click", () =>
      }
 
     const playerChoice = document.querySelector(".player-choice");
-    playerChoice.textContent = `Player choose: ${playerSelection}`;
+    playerChoice.textContent = `Player chose: ${playerSelection}`;
     const computerChoice = document.querySelector(".computer-choice");
-    computerChoice.textContent = `Computer choose: ${computerSelection}`;
+    computerChoice.textContent = `Computer chose: ${computerSelection}`;
 
     // playRound(playerSelection, computerSelection);
     playGame(playerSelection, computerSelection);
@@ -96,9 +96,9 @@ scissors.addEventListener("click", () =>
      }
     
     const playerChoice = document.querySelector(".player-choice");
-    playerChoice.textContent = `Player choose: ${playerSelection}`;
+    playerChoice.textContent = `Player chose: ${playerSelection}`;
     const computerChoice = document.querySelector(".computer-choice");
-    computerChoice.textContent = `Computer choose: ${computerSelection}`;
+    computerChoice.textContent = `Computer chose: ${computerSelection}`;
     // playRound(playerSelection, computerSelection);
     playGame(playerSelection, computerSelection);
 
@@ -182,8 +182,8 @@ function resetGame() {
     document.querySelector(".player-score").textContent = "Score: 0";
     document.querySelector(".computer-score").textContent = "Score: 0";
     document.querySelector(".ties").textContent = "Ties: 0";
-    document.querySelector(".player-choice").textContent = "Player choose:";
-    document.querySelector(".computer-choice").textContent = "Computer choose:";
+    document.querySelector(".player-choice").textContent = "Player chose:";
+    document.querySelector(".computer-choice").textContent = "Computer chose:";
     document.querySelector(".winner h3").style.cssText="display:none;";
     document.querySelector(".winner button").style.cssText="display:none;";
     humanScore = 0;
